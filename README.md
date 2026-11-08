@@ -7,7 +7,7 @@ O projeto compara volume e valor das vendas por família de modelo e estado, ana
 
 ## Prévia
 
-![Abertura do dashboard com imagem de um carro esportivo prateado](previa_dashboard_porsche.png)
+![Abertura do dashboard com imagem de um carro esportivo prateado](images/previa_dashboard_porsche.png)
 
 ## Perguntas de negócio e por que foram escolhidas
 
@@ -189,7 +189,7 @@ O fluxo efetivamente utilizado foi a construção e validação de um HTML autô
 
 Exemplo com a família **Macan** selecionada e cancelados excluídos: o painel retorna **17 registros**, sendo **13 com data válida** e **4 sem data válida**. Indicadores e gráficos acompanham esse recorte.
 
-![Dashboard com o filtro de família Macan aplicado](exemplo_filtro_macan.png)
+![Dashboard com o filtro de família Macan aplicado](images/exemplo_filtro_macan.png)
 
 Para reproduzir:
 
@@ -203,11 +203,11 @@ Para reproduzir:
 | Arquivo | Finalidade |
 | --- | --- |
 | [dashboard_porsche_com_imagem.html](dashboard_porsche_com_imagem.html) | Versão final, com dados e imagem incorporados |
-| [previa_dashboard_porsche.png](previa_dashboard_porsche.png) | Prévia da abertura do projeto |
-| [exemplo_filtro_macan.png](exemplo_filtro_macan.png) | Evidência de filtro aplicado |
+| [previa_dashboard_porsche.png](images/previa_dashboard_porsche.png) | Prévia da abertura do projeto |
+| [exemplo_filtro_macan.png](images/exemplo_filtro_macan.png) | Evidência de filtro aplicado |
 | README.md | Documentação do projeto |
 
-As imagens do README precisam ser enviadas ao repositório junto com ele. O dashboard funciona por conta própria, mesmo sem essas capturas.
+As imagens do README precisam ser enviadas ao repositório dentro da subpasta `images`, mantendo os nomes dos arquivos. O dashboard funciona por conta própria, mesmo sem essas capturas.
 
 ## Como executar localmente
 
@@ -223,7 +223,7 @@ Para concluir a entrega do desafio:
 
 1. Crie um repositório público na sua conta, com um nome como `porsche-sales-dashboard`.
 2. Envie o HTML final com o nome **index.html**, na raiz do repositório.
-3. Envie este README e as duas capturas de tela para a mesma pasta.
+3. Envie este README para a raiz do repositório e as duas capturas de tela para a subpasta `images`.
 4. Atualize o link do HTML na seção de arquivos deste README para apontar para `index.html` após renomeá-lo.
 5. Nas configurações do repositório, abra **Pages** e configure a publicação pela branch que contém os arquivos, usando a pasta raiz.
 6. Aguarde a publicação e teste o endereço informado pelo GitHub, incluindo os filtros e a imagem de abertura.
