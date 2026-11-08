@@ -4,6 +4,7 @@ Dashboard interativo de vendas desenvolvido como projeto do desafio da DIO. A pr
 
 O projeto compara volume e valor das vendas por família de modelo e estado, analisa os métodos de pagamento e contextualiza a distribuição dos registros no tempo. O visual foi inspirado na identidade da Porsche Brasil, com tons neutros, detalhes em vermelho e uma imagem automotiva na abertura.
 
+**Dashboard publicada:** [Acessar o dashboard interativo](https://diegodossantos001-max.github.io/dashboard-vendas-porsche-ia/)
 
 ## Prévia
 
@@ -207,7 +208,6 @@ Para reproduzir:
 | [exemplo_filtro_macan.png](images/exemplo_filtro_macan.png) | Evidência de filtro aplicado |
 | README.md | Documentação do projeto |
 
-As imagens do README precisam ser enviadas ao repositório dentro da subpasta `images`, mantendo os nomes dos arquivos. O dashboard funciona por conta própria, mesmo sem essas capturas.
 
 ## Como executar localmente
 
@@ -215,19 +215,10 @@ Baixe `dashboard_porsche_com_imagem.html` e abra o arquivo em um navegador moder
 
 ## Publicação no GitHub Pages
 
-**Endereço da dashboard:** pendente de publicação.
+**Dashboard publicada:** [Acessar o dashboard interativo](https://diegodossantos001-max.github.io/dashboard-vendas-porsche-ia/)
 
-**Endereço do repositório:** pendente de criação ou definição.
+**Repositório:** [Ver código e documentação](https://github.com/diegodossantos001-max/dashboard-vendas-porsche-ia/)
 
-Para concluir a entrega do desafio:
 
-1. Crie um repositório público na sua conta, com um nome como `porsche-sales-dashboard`.
-2. Envie o HTML final com o nome **index.html**, na raiz do repositório.
-3. Envie este README para a raiz do repositório e as duas capturas de tela para a subpasta `images`.
-4. Atualize o link do HTML na seção de arquivos deste README para apontar para `index.html` após renomeá-lo.
-5. Nas configurações do repositório, abra **Pages** e configure a publicação pela branch que contém os arquivos, usando a pasta raiz.
-6. Aguarde a publicação e teste o endereço informado pelo GitHub, incluindo os filtros e a imagem de abertura.
-7. Substitua os campos pendentes deste README pelos endereços reais e atualize o status no início do documento.
-8. Envie à DIO o **link do repositório público**, conforme solicitado no desafio.
 
-A publicação na web não foi executada nesta etapa; as validações descritas neste documento se referem à versão local do dashboard.
+
