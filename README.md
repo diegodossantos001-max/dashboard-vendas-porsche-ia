@@ -60,7 +60,7 @@ A distribuição da amostra não comprova tendência ou sazonalidade: os anos t�
 
 **Fonte do desafio:** [Planilha base Porsche — DIO](https://hermes.dio.me/files/assets/8683bed0-cc33-4e06-bca9-04db9c31f9e2.xlsx).
 
-A implementação desta conversa utilizou o arquivo anexado **porsche_db_sanitized.xlsx**, na aba **Sanitized**. A estrutura efetivamente analisada continha as colunas sanitizadas e campos auxiliares de identificação. Não foi necessário voltar às colunas cruas.
+A implementação utilizou o arquivo **porsche_db_sanitized.xlsx**, na aba **Sanitized**. A estrutura efetivamente analisada continha as colunas sanitizadas e campos auxiliares de identificação. Não foi necessário voltar às colunas cruas.
 
 O tratamento aplicado foi:
 
@@ -117,7 +117,7 @@ Foram testados filtros, seleção sem resultados, limpeza dos filtros, alternân
 
 ## Prompt inicial
 
-O pedido que iniciou a construção do arquivo HTML nesta conversa foi:
+O prompt que iniciou a construção do dashboard foi:
 
 ```text
 Analise /mnt/data/porsche_db_sanitized.xlsx e crie um dashboard HTML autônomo,
@@ -128,7 +128,7 @@ método de pagamento mais utilizado e estado com maior volume de vendas.
 Valide os cálculos e entregue o HTML pronto para abrir no navegador.
 ```
 
-O caminho acima fazia parte do pedido original. O arquivo foi localizado no anexo da conversa e analisado a partir dele. A referência visual informada foi o [site da Porsche Brasil](https://www.porsche.com/brazil/pt/).
+O caminho acima faz parte do prompt original e aponta para a planilha enviada à IA, que foi analisada a partir dele. A referência visual informada foi o [site da Porsche Brasil](https://www.porsche.com/brazil/pt/).
 
 ## Refinamentos até a versão final
 
@@ -176,7 +176,7 @@ A imagem é ilustrativa e não corresponde a uma fotografia de um veículo espec
 
 ## Ferramentas e processo de construção
 
-O projeto foi desenvolvido nesta conversa com o **Codex**, com apoio de habilidades de análise de planilhas, implementação de interfaces, direção de imagem e revisão visual.
+O projeto foi desenvolvido com o **Codex**, com apoio de habilidades de análise de planilhas, implementação de interfaces, direção de imagem e revisão visual.
 
 - **HTML, CSS e JavaScript:** interface, filtros, cálculos e gráficos.
 - **SVG e elementos HTML/CSS:** gráficos sem dependência de bibliotecas externas.
@@ -184,7 +184,7 @@ O projeto foi desenvolvido nesta conversa com o **Codex**, com apoio de habilida
 - **Geração de imagem por IA:** ilustração automotiva da abertura.
 - **Playwright e Chrome:** testes de interação, capturas de tela e revisão responsiva.
 
-O fluxo efetivamente utilizado foi a construção e validação de um HTML autônomo com auxílio de IA. O pedido anterior mencionava Canvas, mas a entrega foi produzida como arquivo local nesta conversa; não houve comparação prática entre Canvas e um agente personalizado com skill própria.
+O fluxo efetivamente utilizado foi a construção e validação de um HTML autônomo com auxílio de IA. O desafio também mencionava o uso do Canvas, mas a entrega foi produzida como arquivo local; não foi feita uma comparação prática entre o Canvas e um agente personalizado com skill própria.
 
 ## Evidência de filtro aplicado
 
